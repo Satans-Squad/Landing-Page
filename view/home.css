@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Josefin+Sans&family=Rajdhani:wght@300&family=Source+Code+Pro:ital@1&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Indie+Flower&family=Josefin+Sans&family=Open+Sans&family=Rajdhani:wght@300&family=Source+Code+Pro:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -26,9 +24,9 @@
     flex-wrap: wrap;
 }
 .header .logo{
-    font-family: 'Fresca', sans-serif;
+    font-family: 'Indie Flower', cursive;
     padding-right: 20px;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 nav li{
@@ -68,9 +66,11 @@ body::before{
     bottom: 7rem;
     width: 40%;
     font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .content h3{
     margin-top: 1.2rem;
+    font-weight: lighter;
 }
 /* footer */ 
 .Footer{
